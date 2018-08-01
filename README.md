@@ -1,5 +1,5 @@
 # React Navigation Example without Expo
-This is a [NavigationPlayground](https://github.com/react-navigation/react-navigation/tree/master/examples/NavigationPlayground) example from the [React Navigation](https://github.com/react-navigation/react-navigation) without using Expo.
+To ease the test of `react-navigation`, clone [NavigationPlayground](https://github.com/react-navigation/react-navigation/tree/master/examples/NavigationPlayground) example from the [React Navigation](https://github.com/react-navigation/react-navigation) without using Expo.
 
 ### To run
 
