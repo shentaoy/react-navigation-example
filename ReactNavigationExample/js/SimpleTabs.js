@@ -18,8 +18,9 @@ const MyNavScreen = ({ navigation, banner }) => (
   <SafeAreaView forceInset={{ horizontal: 'always', top: 'always' }}>
     <SampleText>{banner}</SampleText>
     <Button
-      onPress={() => navigation.navigate('Home')}
+      // onPress={() => navigation.navigate('Home')}
       title="Go to home tab"
+      onPress={() => navigation.openDrawer()}
     />
     <Button
       onPress={() => navigation.navigate('Settings')}

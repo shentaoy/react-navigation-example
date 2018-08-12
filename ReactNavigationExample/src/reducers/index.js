@@ -4,11 +4,10 @@ import { NavigationActions } from 'react-navigation';
 import { RootNavigator } from '../navigators/AppNavigator';
 
 // Start with two routes: The Main screen, with the Login screen on top.
-const firstAction = RootNavigator.router.getActionForPathAndParams('Main');
+const firstAction = RootNavigator.router.getActionForPathAndParams('Login');
 const tempNavState = RootNavigator.router.getStateForAction(firstAction);
-const secondAction = RootNavigator.router.getActionForPathAndParams('Login');
 const initialNavState = RootNavigator.router.getStateForAction(
-  secondAction,
+    firstAction,
   tempNavState
 );
 

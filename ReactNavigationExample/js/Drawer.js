@@ -77,11 +77,11 @@ DraftsStack.navigationOptions = {
 const DrawerExample = createDrawerNavigator(
   {
     Inbox: {
-      path: '/',
+      // path: '/',
       screen: InboxStack,
     },
     Drafts: {
-      path: '/sent',
+      // path: '/sent',
       screen: DraftsStack,
     },
   },
@@ -89,6 +89,7 @@ const DrawerExample = createDrawerNavigator(
     initialRouteName: 'Drafts',
     contentOptions: {
       activeTintColor: '#e91e63',
+
     },
   }
 );
